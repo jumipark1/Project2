@@ -1,0 +1,342 @@
+body{
+    background-color: gainsboro;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+header > nav > div{
+    width: 95%;
+    margin-left: 2.5%;
+    text-align: center;
+    display: block;
+}
+
+.name{
+    margin-bottom: 1%;
+    width: 100%;
+    padding: 5% 0% 5% 0%;
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(46, 45, 45);
+}
+
+.nav-links > a{
+    background-color:white;
+    margin-bottom: 1%;
+    width: 100%;
+    padding: 5% 0% 5% 0%;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(46, 45, 45);
+}
+
+.profile-section{
+    width: 95%;
+    margin-left: 2.5%;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.profile-section > div{
+    display: block;
+}
+
+.profile-pic{
+    width: 100%;
+}
+
+.profile-pic > img{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.profile-description{
+    width: 100%;
+    text-align:center;
+    margin-top: 8%;
+    font-size: 16px;
+    color: rgb(70, 68, 68);
+}
+
+.portfolio-section{
+    background-color: white;
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.section-header{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+}
+
+.page{
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+.slide{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.slide > img{
+    width: 100%;
+}
+
+.slide-header{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+}
+
+.slide-description{
+    text-align:center;
+    margin-top: 3%;
+    width: 95%;
+    margin-left: 2.5%;
+    color: rgb(70, 68, 68);
+}
+
+.contact-section{
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 8%;
+}
+
+.contact-details{
+    text-align:center;
+    margin-top: 8%;
+    color: rgb(70, 68, 68);
+}
+
+footer{
+    width: 95%;
+    margin-left: 2.5%;
+    border-top: 2px solid rgb(158, 156, 156);
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+footer > div{
+    display: inline-block;
+    width: 48%;
+}
+
+.footer-name{
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+}
+
+.footer-link > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+    margin-left: 25%;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 321px) {
+    .name{
+        padding: 5% 0% 0% 0%;
+        font-size: 42px;
+    }
+
+    .nav-links > a{
+        width: 25%;
+        background-color: gainsboro;
+        padding: 5% 0% 0% 0%;
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .profile-section{
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+    
+    .profile-section > div{
+        display: inline-block;
+    }
+    
+    .profile-pic{
+        width: 40%;
+        float: right;
+    }
+    .profile-pic > img{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .profile-description{
+        width: 57%;
+        margin-right: 3%;
+        text-align:left;
+        margin-top: 0%;
+        font-size: 20px;
+    }
+
+    .portfolio-section{
+        padding-bottom: 0%;
+    }
+    
+    .section-header{
+        margin-bottom: 7%;
+        font-size: 20px;
+    }
+    
+    .page{
+        width: 47%;
+        margin-left: 2%;
+        display: inline-block;
+    }
+
+    .contact-section{
+        padding-top: 7%;
+        font-size: 24px;
+        padding-bottom: 5%;
+    }
+    
+    .contact-details{
+        text-align:center;
+        margin-top: -2%;
+        width: 84%;
+        margin-left: 8%;
+    }
+
+    footer{
+        padding-top: 2%;
+    }
+    
+    footer > div{
+        display: inline-block;
+        width: 48%;
+    }
+    
+    .footer-name{
+        font-size: 20px;
+    }
+    
+    .footer-link > a{
+        float:right;
+        font-size: 18px;
+    }
+
+  }
+
+@media only screen and (min-width: 769px)
+{
+    .name{
+        margin-bottom: 1%;
+        width: 30%;
+        padding: 5% 0% 0% 0%;
+        font-size: 42px;
+        display: inline-block;
+    }
+
+    .nav-links{
+        width: 70%;
+        float: left;
+        margin-left: 39%;
+        margin-top: -8%;
+    }
+    
+    .nav-links > a{
+        width: 22%;
+        background-color: gainsboro;
+        padding: 5% 0% 0% 0%;
+        display: inline-block;
+        font-size: 24px;
+        text-align: right;
+    }
+
+    .profile-section{
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+    
+    .profile-section > div{
+        display: inline-block;
+    }
+    
+    .profile-pic{
+        width: 45%;
+        float: right;
+    }
+    .profile-pic > img{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .profile-description{
+        width: 50%;
+        margin-right: 5%;
+        text-align:left;
+        margin-top: 0%;
+        font-size: 24px;
+    }
+
+    .portfolio-section{
+        padding-bottom: 0%;
+    }
+    
+    .section-header{
+        margin-bottom: 7%;
+        font-size: 20px;
+    }
+    
+    .page{
+        width: 31%;
+        margin-left: 1%;
+        display: inline-block;
+    }
+
+    .contact-section{
+        padding-top: 7%;
+        font-size: 24px;
+        padding-bottom: 5%;
+    }
+    
+    .contact-details{
+        text-align:center;
+        margin-top: -3%;
+        width: 65%;
+        margin-left: 17.5%;
+    }
+
+    footer{
+        padding-top: 2%;
+    }
+    
+    footer > div{
+        display: inline-block;
+        width: 48%;
+    }
+    
+    .footer-name{
+        font-size: 20px;
+    }
+    
+    .footer-link > a{
+        float:right;
+        font-size: 18px;
+    }
+
+}
